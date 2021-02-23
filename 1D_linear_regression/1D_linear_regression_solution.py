@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def LR_1D_calculator(X,Y):
-# We now solve the equation y = aX + b
+    # We now solve the equation y = aX + b
     X_mean = X.mean()
     X_sum = X.sum()
     Y_mean = Y.mean()
