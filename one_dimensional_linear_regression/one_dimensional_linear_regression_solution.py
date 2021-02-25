@@ -23,14 +23,21 @@ def LR_1D_calculator(X,Y, xlabel=None, ylabel=None):
         plt.ylabel(ylabel)
     plt.show()
 
+    R2 = r2_calculator(Y, Y_hat)
+
+    return Y_hat, a, b, R2
+
+def r2_calculator(Y, Y_hat):
+
     # We also calculate the R^2 error:
 
     d1 = Y - Y_hat
-    d2 = Y - Y_mean
+    d2 = Y - Y.mean()
     R2 = 1 - d1.dot(d1) / d2.dot(d2)
     print("The R^2 is: ", R2)
 
-    return Y_hat, a, b, R2
+    return R2
+
 
 if __name__ == '__main__':
 
