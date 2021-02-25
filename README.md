@@ -1,4 +1,4 @@
-# LinearRegression
+# Linear Regression
 ## Motivation
 This collection respresents a set codes aiding my learning / recap of linear regression, from it's derivation to applications. This repo contains codes for 1D Linear Regression, Multiple & Polynomial Linear Regression and several practical machine learning issues. 
 
