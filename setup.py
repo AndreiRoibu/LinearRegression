@@ -13,5 +13,6 @@ setup(
         'matplotlib',
         'scipy',
         'sklearn',
+        'seaborn',
     ],
 )
