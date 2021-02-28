@@ -2,7 +2,7 @@ import re
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from one_dimensional_linear_regression_solution import LR_1D_calculator
+from one_dimensional_linear_regression.one_dimensional_linear_regression_solution import LR_1D_calculator
 
 sns.set()
 
